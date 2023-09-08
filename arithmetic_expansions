@@ -1,0 +1,5 @@
+#they support whole numbers and not decimal
+#!/bin/bash
+echo $((2+2))
+echo $(($((5**2))*3))
+five hundred by two equals 2

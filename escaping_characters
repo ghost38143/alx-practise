@@ -1,0 +1,8 @@
+#!/bin/bash
+inserting several blank lines 
+
+
+
+words	separated	by	horizontal	tabs
+my computer went "beep".
+echo -e DEL C:\WIN2K\LEGACY_OS.EXE
