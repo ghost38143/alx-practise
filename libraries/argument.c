@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <stdlib.h>
+/**
+ * main - using argc and argv arguments
+ * Return: value
+ */
+int main(int argc, char **argv)
+
+{
+	int i;
+	int sum = 0;
+
+	printf("argc is %d\n", argc);
+	printf("lets whats is an argv[]\n");
+
+	if(argc > 1)
+	{
+		for (i = 1; i < argc; i++)
+		{
+			printf("argv[%d] = %s\n", i, argv[i]);
+			sum += atoi(argv[i]);
+		}
+		printf("Total = %d\n", sum);
+	}
+	return (0);
+}
